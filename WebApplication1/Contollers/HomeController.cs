@@ -11,7 +11,7 @@ namespace WebApplication1.Contollers
     {
         public IActionResult Index()
         {
-            return View(SimpleRepository.SharedRepository.);
+            return View(SimpleRepository.SharedRepository.Products);
         }
     }
 }

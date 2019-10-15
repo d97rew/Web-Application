@@ -29,7 +29,7 @@ namespace WebApplication1.Models
             products.Add(p.Name, p);
         }
 
-        public IEnumerable<Product> Products => Product.Values;
+        public IEnumerable<Product> Products => products.Values;
     }
     
 }
